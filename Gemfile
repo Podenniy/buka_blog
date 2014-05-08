@@ -3,7 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 group :development, :test do
-  gem 'rspec-rails', '2.13.1'
+   gem 'rspec-rails', '2.13.1'
+   gem 'guard-rspec', '2.5.0'
+   gem 'spork-rails', '4.0.0'
+   gem 'guard-spork', '1.5.0'
+   gem 'childprocess', '0.5.3'
 end
 
 group :test do
@@ -12,7 +16,12 @@ group :test do
   gem 'factory_girl_rails', '4.2.0'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'libnotify', '0.8.0'
 end
+group :development, :test do
+
+end
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
