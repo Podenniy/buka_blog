@@ -18,9 +18,7 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'libnotify', '0.8.0'
 end
-group :development, :test do
 
-end
 
 # Use postgresql as the database for Active Record
 gem 'pg'
