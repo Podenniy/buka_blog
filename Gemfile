@@ -23,7 +23,7 @@ end
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-gem 'bootstrap-sass', '3.1.1.1'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
@@ -40,7 +40,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'haml-rails'
 gem 'simple_form'
-gem 'sass', '3.2.13'
+
 group :production do
   gem 'rails_12factor', '0.0.2'
 end
