@@ -40,7 +40,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'haml-rails'
 gem 'simple_form'
-
+gem 'sass', '3.3.7'
 group :production do
   gem 'rails_12factor', '0.0.2'
 end
